@@ -12,6 +12,8 @@
 .scs {
   background-color: var(--primary-color);
   border-radius: 20px;
+  color: white;
+
 }
 section{
   background-color: #ffffff;
@@ -298,18 +300,6 @@ section{
   }
   
 }
-/* .cnt {
-  margin-left:5px;
- 
-}
-.col-md-9a{
-  padding: 0% 1% 0% 2%;
-  width: 80%;
-}
-.col-md-2a{
-  width:19% ;
-  margin-left:5px;
-}*/
 .border-50{
   border-radius: 20px;
 }
@@ -322,6 +312,8 @@ button{
 .card-right{
   border-radius: 20px;
   height: 40%;
+  background-color: #EFF8F1;
+  border-style: none;
 }
 /* search */
 input[type=text] {
@@ -338,6 +330,9 @@ input[type=text] {
   -moz-webkit-transition: width 0.4s ease-in-out;
   /* transition: width 0.4s ease-in-out; */
   width: 100%;
+}
+a{
+  color: #EFF8F1;
 }
 
 /* garis pembantu */
