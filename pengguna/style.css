@@ -11,6 +11,7 @@
 }
 .scs {
   background-color: var(--primary-color);
+  border-radius: 20px;
 }
 section{
   background-color: #ffffff;
@@ -25,6 +26,7 @@ section{
 
 .main{
   background-color: var(--background-color);
+  border-radius: 20px;
 }
 
 .sidebar{
@@ -308,25 +310,18 @@ section{
   width:19% ;
   margin-left:5px;
 }*/
- .lg{
-  width: 100px;
-  margin-top: 50px;
-} 
-
-.col-md-2a {
-  width: 23%;
-}
-.crd{
+.border-50{
   border-radius: 20px;
-  margin-bottom: 10%;
+}
+.lg{
+  margin-top: 25%;
 }
 button{
   color: var(--background-color);
 }
-.profile{
-  border-radius: 50%;
-  margin-left:27%;
-  margin-right: auto;
+.card-right{
+  border-radius: 20px;
+  height: 40%;
 }
 /* search */
 input[type=text] {
@@ -340,7 +335,7 @@ input[type=text] {
   background-position: 10px 10px; 
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
+  -moz-webkit-transition: width 0.4s ease-in-out;
   /* transition: width 0.4s ease-in-out; */
   width: 100%;
 }
